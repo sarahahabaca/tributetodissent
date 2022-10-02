@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+    background: #dddddd;
+    font-family: arial;
+}
+
+.main-container {
+    width: 860px;
+    min-height: 500px;
+    border: 1px solid #000000;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'nav-container'
+        'header-container'
+        'background-container'
+        'footer-container'
+        'header-container';
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(71, 6, 6);
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.header-container,
+.nav-container,
+.main-container,
+.background-container,
+.tribute-container,
+.footer-container,
+.tiannemen-container,
+.hk-description-container {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 6, 6);
+}
+
+.background-container,
+.description-container,
+.hk-background-img-container {
+    margin-right: 20px;
+    padding: 20px;
+    border: black;
+}
+
+.main-column-left {
+    width: 400px;
+    float: left;
+}
+
+.main-column-right {
+    width: 400px;
+    float: right;
+}
+
+.iranian-video-container {
+    padding: 20px;
+    border: #000000;
+}
+
+.dissent-definition-container {
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer-container {
+    margin: 20px;
+}
